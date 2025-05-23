@@ -1,7 +1,7 @@
 from telegram.ext import Updater, MessageHandler, Filters
 
 import os
-TOKEN = os.environ.get("8126644790:AAF9ldB6hSvPBKGG7mIRYH1WV1mH7eHJFWk")  # Render-də gizli saxlanması üçün
+TOKEN = os.environ.get("BOT_TOKEN")  # Render-də gizli saxlanması üçün
 
 def cavabla(update, context):
     mesaj = update.message.text.lower()
